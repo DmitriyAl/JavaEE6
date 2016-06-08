@@ -8,10 +8,18 @@
         <servlet-name>FormHandlerServlet</servlet-name>
         <servlet-class>FormHandlerServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>FormHandlerServlet</servlet-name>
         <url-pattern>/example</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MultipleValueFieldHandlerServlet</servlet-name>
+        <servlet-class>MultipleValueFieldHandlerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MultipleValueFieldHandlerServlet</servlet-name>
+        <url-pattern>/multipleValueFieldHandlerServlet</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
