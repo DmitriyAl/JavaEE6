@@ -5,12 +5,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.javaee.larning</groupId>
-    <artifactId>JavaЕЕ6</artifactId>
+    <artifactId>JavaEE6</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
         <module>chapter2</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.2.Final</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
