@@ -21,6 +21,24 @@
         <servlet-name>MultipleValueFieldHandlerServlet</servlet-name>
         <url-pattern>/multipleValueFieldHandlerServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RedirectedMultipleValueHandlerServlet</servlet-name>
+        <servlet-class>RedirectedMultipleValueHandlerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectedMultipleValueHandlerServlet</servlet-name>
+        <url-pattern>/redirected</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConfirmationServlet</servlet-name>
+        <servlet-class>ConfirmationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConfirmationServlet</servlet-name>
+        <url-pattern>/confServlet</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>smth.html</welcome-file>
