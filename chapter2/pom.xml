@@ -14,6 +14,7 @@
     <modules>
         <module>doPostServlet</module>
         <module>request_redirect</module>
+        <module>anotation</module>
     </modules>
 
 

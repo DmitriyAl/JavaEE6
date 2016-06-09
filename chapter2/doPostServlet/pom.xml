@@ -11,6 +11,7 @@
 
     <artifactId>doPostServlet</artifactId>
     <packaging>war</packaging>
+    <name>doServlet</name>
 
     <dependencies>
         <dependency>

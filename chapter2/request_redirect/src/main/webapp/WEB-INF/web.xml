@@ -6,11 +6,11 @@
            version="3.0">
 
     <servlet>
-        <servlet-name>ResponceRedirectionServlet</servlet-name>
-        <servlet-class>ResponceRedirectionServlet</servlet-class>
+        <servlet-name>ResponseRedirectionServlet</servlet-name>
+        <servlet-class>ResponseRedirectionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ResponceRedirectionServlet</servlet-name>
+        <servlet-name>ResponseRedirectionServlet</servlet-name>
         <url-pattern>/redir</url-pattern>
     </servlet-mapping>
 

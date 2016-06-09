@@ -11,9 +11,14 @@ import java.util.List;
 /**
  * Created by Андрей on 09.06.2016.
  */
-public class ConfirmationServlet extends HttpServlet {
+public class ResponseRedirectionServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        String url = req.getParameter("searchSys");
+//        if (url != null) {
+//            resp.sendRedirect(url);
+//        }
+
         try {
             PrintWriter printWriter;
             ServletContext servletContext = req.getServletContext();
